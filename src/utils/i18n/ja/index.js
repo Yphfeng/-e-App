@@ -1,0 +1,138 @@
+export default {
+    success: '成功',
+    failed: '失敗した',
+    confirm: '確認',
+    networkError: 'ネットワークエラー',
+     laserError: 'レーザーの切り替えに失敗し、データの書き込みエラー',
+    autoHrError: '自動心拍数の切替え、データの書き込みエラー',
+    hrError: '手動心拍数の切り替えに失敗し、データの書き込みエラー',
+    LaserManuallyParametersError: 'マニュアルレーザーパラメータの設定に失敗し、データエラーを書き込みました',
+    operateMore: '繰り返し操作',
+    charge: '充電してください！',
+    home: {
+        connectDevice: '接続装置',
+        noConnectDeviceText: 'デバイスを接続してください',
+        adapterOffText: 'あなたのブルートゥースをオンにしてください',
+        noSupported: 'サポートされていない',
+        getHRDataFailed: 'データの取得に失敗した心拍数',
+        getSportDataFailed: 'スポーツデータの取得に失敗しました',
+        getLaserDataFailed: 'レーザデータの取得に失敗しました',
+        connectDeviceFailed: '失敗した接続装置',
+        automaticTopicText: '自動心拍機能各15分の時間の3分をオンにします', 
+        noPrompted: '再び表示しない',
+        propsPhone: 'お使いの携帯電話の近くにデバイスを持って来てください',
+        disbindFail: '切断に失敗しました',
+        outOtherDevices: '他のデバイスを削除する',
+        
+        laser: 'レーザ',
+        heartRate: '心拍数',
+        automatic: '自動',
+        sport: 'スポーツ',
+        day: '日',
+        week: '週',
+        month: '月',
+        sportDistance: '距離',
+        sportCalorie: 'カロリー',
+
+        autoLaserSwitchText: "自動レーザ出力",
+        autoLaserSwitchCloseText: 'オフ',
+        autoLaserSwitchOpenText: '順番について',
+        laserPowerText: "レーザパワー",
+        laserPowerDefaultText: 'インテリジェント',
+        laserDurationText: '時間の持続時間（min）',
+
+        pointerAlertTopicText: 'あなたの間違った時間を置いてください（運動の現在位置）に下記の',
+        pointerAlertHourText: '時間',
+        pointerAlertMinuteText: '分',
+
+        questionAlertText: '血液浄化治療インテリジェントレーザモードに自動的に1日3回、10日間の治療のために働いて、5日間の休み、1周期のための15日間、治療方針のために3ヵ月。レーザ出力のオンに午前8時45分、32mins（主な脾臓と胃の経絡）をオンにして第2の時間は午後3時に、8mins（主要な小腸子午線）の第3の時間は17 : 30でオンし、午後には、32mins（主に腎臓芽里ダイアン）。この治療のコースをレーザ治療に基づいています。不健康な血液循環系に起因する未病の症状のすべての種類にも適している。特に高脂血血液粘度が高いとして人々に適している',
+    
+        allData: 'すべてのデータ',
+        updating: '更新',
+        updateDataTopicText: 'アップロードへの以下のデータを選択してください',
+    },
+
+    login: {
+        headerTitle: 'ログイン',
+        forgetPasswordText: 'パスワードを忘れました',
+        registerText: 'レジスタ',
+        signInText: '署名',
+        accountOrPasswordWrongText: "口座番号やパスワードが間違っていた",
+        eMail: '電子メール',
+        password: 'パスワード'
+    },
+
+    register: {
+        headerTitle: 'レジスタ',
+        codeTopicText: 'あなたの電子メールをチェックして、あなたのコードをタップしてください。貴方はメールを受信しなかったならば、ことにしようとしてください',
+        enterEmailText: 'あなたの電子メールを入力してください',
+        tapCodeText: 'あなたのコードをタップ',
+        sendText: 'を送ってください',
+        resendText: '再送',
+        emailUsed: 'The account has been used',
+        passwordLengthTopicText: 'あなたのパスワードは6〜16文字でなければなりません',
+        inputEmailText: 'あなたの電子メールを入力してください',
+        newPasswordText: '新しいパスワード',
+        retapPasswordText: 'あなたのパスワードを入力してください'
+
+    },
+
+    resetPassword: {
+        headerTitle: "パスワードのリセット"
+    },
+
+    connect: {
+        searching: '検索',
+        connect: '接続',
+        reSearchText: 'デバイスが見つかりませんでした。再度検索してください',
+        reSearchDevice: '再度検索',
+        connectDevice: '接続装置',
+        selectDevice: 'あなたのデバイスを選択',
+        connecting: '接続',
+        topicFirstText: 'あなたの装置を起動さ',
+        topicSecondText: 'プレス・ボタンまたはデバイスを振る',
+        searchDevice: '検索装置',
+        bindingDevice: 'あなたの装置のマッチング',
+        binding: 'matichning',
+        myDevice: '私の装置',
+        noDevice: 'デバイスを見つけることができない',
+        jumpOver: 'スキップ',
+        disConnectDevice: 'デバイスを切断する',
+        connectSuccess: '接続に成功しました'
+    },
+
+    personalCenter: {
+
+        headerTitle: '私のセンター',
+        resetPassword: 'パスワードのリセット',
+        exit: '出口',
+    },
+    data: {
+        step:'step', 
+        step1:'歩',
+        toDaystep:'今日のデータ',
+        distance:'距離',
+        kilometre:'KM',
+        consume:'消耗',
+        kilocalorie:'cal', 
+        Walk:'歩く',               
+        stepNumber:'歩数',         
+        motion:'運動',              
+        noData:'データなし',              
+        laser:'レーザー',          
+        month:'月',
+        day:'日',
+        Highest:'最高',                
+        second:'次',
+        Minute:'分',
+        minimum:'最低',
+        heartRate:'心拍',
+        tenThousand:'万',
+        TotalOpeningTime:"照射時間合計",
+        openingTime: '照射時間',
+        OpeningTimes:'照射回数合計',
+        beforeDays:'昨日',
+        afterDays:'明日',
+        nowadays:'今'
+    },
+};

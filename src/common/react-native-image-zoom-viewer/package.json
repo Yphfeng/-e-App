@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "magicwing"
+  },
+  "bugs": {
+    "url": "https://github.com/magicwing/react-native-image-viewer/issues"
+  },
+  "dependencies": {
+    "react-native-image-pan-zoom": "^1.1.12"
+  },
+  "description": "大图浏览",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/magicwing/react-native-image-viewer#readme",
+  "keywords": [
+    "image-viewer"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-image-zoom-viewer",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicwing/react-native-image-viewer.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
