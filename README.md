@@ -31,6 +31,6 @@ npm run ios
 npm run android
 
 ### 打包
-
+----
 #### npm run iosbundle
 #### npm run androidbundle
