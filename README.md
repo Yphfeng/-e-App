@@ -18,13 +18,14 @@
 
 ### 本地运行
 ----
-git clone https://github.com/Yphfeng/fenxiangyiliao.git
-cd fenxiangyiliao
-npm install
+###### git clone https://github.com/Yphfeng/fenxiangyiliao.git
+###### cd fenxiangyiliao
+###### npm install
+
 #### ios运行
 
 npm run iosbundle
 
-### android运行
+#### android运行
 
 npm run androidbundle
