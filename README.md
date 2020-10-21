@@ -24,8 +24,13 @@
 
 #### ios运行
 
-npm run iosbundle
+npm run ios
 
 #### android运行
 
-npm run androidbundle
+npm run android
+
+### 打包
+
+#### npm run iosbundle
+#### npm run androidbundle
